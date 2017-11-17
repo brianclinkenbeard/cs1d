@@ -1,0 +1,25 @@
+digraph G { 
+  graph [ordering="out"];
+  null0 [shape=point];
+  null1 [shape=point];
+  null2 [shape=point];
+  null3 [shape=point];
+  null4 [shape=point];
+  null5 [shape=point];
+  65 -> 55
+  65 -> 95
+  95 -> 85
+  95 -> null0
+  85 -> 75
+  85 -> null5
+
+  55 -> 45
+  55 -> null4
+  45 -> 35
+  45 -> null1
+  35 -> 25
+  35 -> null2
+  25 -> 15
+  25 -> null3
+}
+

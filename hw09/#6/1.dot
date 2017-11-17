@@ -1,0 +1,19 @@
+// Red Black Tree Example
+
+digraph G {
+	graph [ratio=.48];
+	node [style=filled, color=black, shape=circle, width=.6 
+		fontname=Helvetica, fontweight=bold, fontcolor=white, 
+		fontsize=24, fixedsize=true];
+
+	ordering=out;
+
+	22, 77, 99, 9, 33 [fillcolor=red];
+	n1, n2 [shape=point, width=.1];
+
+	55 -> 22, 88;
+	22 -> 21, 44;
+	21 -> 9, n1;
+	44 -> 33, n2;
+	88 -> 77, 99;
+}

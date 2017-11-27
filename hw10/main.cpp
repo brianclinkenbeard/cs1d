@@ -72,11 +72,8 @@ int main()
     // from Miami
     // none
 
-    // test
-    vertex *start = my_graph.get_vertex("Dallas");
-
-    std::cout << "DFS starting at Dallas: " << std::endl;
-    my_graph.DFS(start);
+    std::cout << "Djikstra starting at Atlanta: " << std::endl;
+    my_graph.DF
     std::cout << std::endl << "Edge statuses for DFS: " << std::endl;
     my_graph.print_edge_statuses();
     std::cout << std::endl << "Total distance traveled on discovery edges: "

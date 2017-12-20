@@ -1,15 +1,8 @@
-/**
- * This is an implementation of Huffman coding.
- *
- * The core algorithm is taken from the CLR book (Introduction of Algorithms),
- * Chapter 16.3, and directly used to implement the 'build_tree()' routine.
- *
- * After the tree is built, a code table that maps a character to a binary
- * code is built from the tree, and used for encoding text. Decoding is done
- * by traversing the Huffman tree, as prescribed by the algorithm.
- *
- * Binary codes are represented by std::vector<bool>, which is a specialized
- * vector that optimizes space.
+/*
+ * Brian Clinkenbeard | CS1D | Assignment 14
+ * This program will print out the frequency table and the Huffman Code for each letter of the Gettysburg address.
+ * Then it will encode the Gettysburg address and print it. It will decode the compressed and encoded file that is
+ * created and print out the compression ratio that was achieved.
  */
 
 #include <vector>

@@ -23,12 +23,12 @@ void quicksort(std::vector<int> &elements, pivot_type pv_type, int left, int rig
     }
 
     while(left < j || i < right) {
-        while (elements.at(i) < pivot && i <= j) {
-            std::cout << "i" << i << std::endl;
+        while (elements.at(i) < pivot && i < j) {
+            //std::cout << "i" << i << std::endl;
             i++;
         }
-        while (elements.at(j) > pivot && j >= i) {
-            std::cout << "j" << j << std::endl;
+        while (elements.at(j) > pivot && j > i) {
+            //std::cout << "j" << j << std::endl;
             j--;
         }
          if (i <= j) {

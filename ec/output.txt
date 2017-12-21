@@ -1,0 +1,120 @@
+PART ONE:
+1. Already ordered:
+Size: 5000
+Before:	10 30 34 77 81 
+First element as pivot:
+Count: 12256147
+elapsed time: 0.038596s
+Middle element as pivot:
+Count: 78537
+elapsed time: 0.000384s
+Random element as pivot:
+Count: 94668
+elapsed time: 0.000516s
+After:	10 30 34 77 81 
+
+Size: 10000
+Before:	4 13 14 29 39 
+First element as pivot:
+Count: 47582781
+elapsed time: 0.143351s
+Middle element as pivot:
+Count: 167268
+elapsed time: 0.000787s
+Random element as pivot:
+Count: 221707
+elapsed time: 0.001060s
+After:	4 13 14 29 39 
+
+Size: 50000
+Before:	1 2 2 3 3 
+First element as pivot:
+Count: 985558784
+elapsed time: 2.921781s
+Middle element as pivot:
+Count: 978179
+elapsed time: 0.004599s
+Random element as pivot:
+Count: 1230861
+elapsed time: 0.006169s
+After:	1 2 2 3 3 
+
+2. Reverse ordered:
+Size: 5000
+Before:	99987 99981 99951 99949 99872 
+First element as pivot:
+Count: 12208805
+elapsed time: 0.038856s
+Middle element as pivot:
+Count: 93193
+elapsed time: 0.000496s
+Random element as pivot:
+Count: 103807
+elapsed time: 0.000543s
+After:	4 14 20 36 65 
+
+Size: 10000
+Before:	99998 99994 99982 99964 99960 
+First element as pivot:
+Count: 47448603
+elapsed time: 0.143666s
+Middle element as pivot:
+Count: 196138
+elapsed time: 0.000977s
+Random element as pivot:
+Count: 227281
+elapsed time: 0.001107s
+After:	13 22 26 36 39 
+
+Size: 50000
+Before:	99998 99997 99996 99994 99989 
+First element as pivot:
+Count: 1003588895
+elapsed time: 3.046577s
+Middle element as pivot:
+Count: 1095479
+elapsed time: 0.004991s
+Random element as pivot:
+Count: 1323034
+elapsed time: 0.006920s
+After:	2 3 10 12 15 
+
+3. Random ordered:
+Size: 5000
+Before:	17954 5269 54010 72902 34274 
+First element as pivot:
+Count: 134802
+elapsed time: 0.000995s
+Middle element as pivot:
+Count: 133441
+elapsed time: 0.000902s
+Random element as pivot:
+Count: 135368
+elapsed time: 0.000967s
+After:	15 56 58 79 86 
+
+Size: 10000
+Before:	53374 20709 75494 31820 11430 
+First element as pivot:
+Count: 284621
+elapsed time: 0.002107s
+Middle element as pivot:
+Count: 296494
+elapsed time: 0.001988s
+Random element as pivot:
+Count: 287888
+elapsed time: 0.002085s
+After:	26 43 44 58 59 
+
+Size: 50000
+Before:	16431 13005 44379 28414 56393 
+First element as pivot:
+Count: 1754061
+elapsed time: 0.011969s
+Middle element as pivot:
+Count: 1697468
+elapsed time: 0.011615s
+Random element as pivot:
+Count: 1717636
+elapsed time: 0.011483s
+After:	0 2 3 4 6 
